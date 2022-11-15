@@ -1,0 +1,67 @@
+body {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 10px 10px;
+    width: 350px;
+    height: 350px;
+    
+}
+
+
+.contenedor-icono{
+    display: flex;
+    position: absolute;
+    left: 89%;
+    color: rgb(6, 116, 31);
+    height: 10px;
+    width: 10px;
+}
+
+.desactivado { 
+    text-decoration: none;
+    color: rgb(6, 116, 31);
+    background-color: transparent;
+   } 
+.contenedor-icono-i{
+
+    margin: 2px;
+    cursor: pointer;
+}
+
+
+.formulario{
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(229, 204, 204);
+    font-size: 30px;
+    color: rgb(191, 23, 8);
+    padding: 15px 15px;
+    padding-top: 30px;
+}
+
+
+
+
+

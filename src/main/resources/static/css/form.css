@@ -1,0 +1,31 @@
+body {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.formulario{
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(229, 204, 204);
+    font-size: 30px;
+    color: rgb(191, 23, 8);
+    padding: 15px 15px;
+    padding-top: 30px;
+}
+
+.textarea {
+    resize: none;
+  }
